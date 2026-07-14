@@ -52,7 +52,7 @@ const ContactForm = () => {
           Accept: "application/json",
         },
         body: JSON.stringify({
-          access_key: "b297ceaf-ee5d-4a0a-98e3-5913827aabb6", // <-- PASTE YOUR KEY HERE
+          access_key: process.env.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY, // <-- PASTE YOUR KEY HERE
           name: fullName,
           email: email,
           message: message,
