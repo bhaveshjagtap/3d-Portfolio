@@ -12,7 +12,7 @@ export enum SkillNames {
   JENKINS = "jenkins",
   DOCKER = "docker",
   KUBERNETES = "kubernetes",
-  GITHUB_ACTIONS = "githubactions",
+  ACTIONS = "actions",
   GIT = "git",
   GITHUB = "github",
   ARGOCD = "argocd",
@@ -135,7 +135,7 @@ export const SKILLS: Record<SkillNames, Skill> = {
     color: "#326CE5",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kubernetes/kubernetes-plain.svg",
   },
-  [SkillNames.GITHUB_ACTIONS]: {
+  [SkillNames.ACTIONS]: {
     id: 13,
     name: "githubactions",
     label: "GitHub Actions",
@@ -274,7 +274,7 @@ export const EXPERIENCE: Experience[] = [
     skills: [
       SkillNames.PYTHON,
       SkillNames.LINUX,
-      SkillNames.GITHUB_ACTIONS,
+      SkillNames.ACTIONS,
       SkillNames.TERRAFORM,
       SkillNames.ANSIBLE,
       SkillNames.AWS,

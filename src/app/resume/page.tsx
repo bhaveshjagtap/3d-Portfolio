@@ -1,9 +1,9 @@
 import ResumeView from "./resume-view";
 
 export const metadata = {
-  title: "Résumé | Naresh Khatri",
+  title: "Résumé | Bhavesh Jagtap",
   description:
-    "Résumé of Naresh Khatri — Senior Full-Stack Engineer. View online or download the PDF.",
+    "Résumé of Bhavesh Jagtap — A Cloud & DevOps Engineer. View online or download the PDF.",
 };
 
 export default function ResumePage() {
